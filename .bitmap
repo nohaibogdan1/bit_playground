@@ -13,7 +13,13 @@
         "scope": "nohai_ionut02.nohai_ionut02",
         "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "nohai_ionut02/components/alert"
+        "rootDir": "nohai_ionut02/components/alert",
+        "config": {
+            "nohai_ionut02.nohai_ionut02/envs/my-react-new-way": {},
+            "teambit.envs/envs": {
+                "env": "nohai_ionut02.nohai_ionut02/envs/my-react-new-way"
+            }
+        }
     },
     "components/data-context": {
         "scope": "nohai_ionut02.nohai_ionut02",
@@ -26,6 +32,19 @@
         "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "nohai_ionut02/envs/my-react"
+    },
+    "envs/my-react-new-way": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "nohai_ionut02.nohai_ionut02",
+        "mainFile": "index.ts",
+        "rootDir": "nohai_ionut02/envs/my-react-new-way",
+        "config": {
+            "teambit.envs/env": {},
+            "teambit.envs/envs": {
+                "env": "teambit.envs/env"
+            }
+        }
     },
     "$schema-version": "15.0.0"
 }

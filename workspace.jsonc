@@ -40,6 +40,10 @@
     "policy": {
       "dependencies": {
         "@teambit/eslint-config-bit-react": "~0.0.367",
+        "@teambit/harmony": "^0.4.6",
+        "@teambit/preview.react-preview": "^0.0.21",
+        "@teambit/react.mounter": "^0.0.8",
+        "@teambit/react.react-env": "^0.0.44",
         "@typescript-eslint/eslint-plugin": "5.35.1",
         "eslint-import-resolver-node": "0.3.6",
         "eslint-plugin-import": "2.22.1",
@@ -53,7 +57,9 @@
         "react": "17.0.2",
         "react-dom": "17.0.2"
       }
-    }
+    },
+    "rootComponents": true,
+    "linkCoreAspects": true
   },
   /**
    * workspace variants allow to set different subsets of configuration for components in your
